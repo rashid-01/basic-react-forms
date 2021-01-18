@@ -1,3 +1,4 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 .App {
   text-align: center;
 }
@@ -26,6 +27,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.errorMsg{
+  float:left;
+  color: red;
 }
 
 @keyframes App-logo-spin {
